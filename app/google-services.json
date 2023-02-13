@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "449658633217",
+    "project_id": "monos-firebase",
+    "storage_bucket": "monos-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449658633217:android:1f5a3dd3941327bdb45400",
+        "android_client_info": {
+          "package_name": "com.example.monos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449658633217-h4qpki6b7j3fl6vvqtg7ha7j9ukrtha5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc0kenLbOD1gNvZK2g4HY4_flZQjEhouA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449658633217-h4qpki6b7j3fl6vvqtg7ha7j9ukrtha5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
