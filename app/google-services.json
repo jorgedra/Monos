@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "449658633217",
+    "firebase_url": "https://monos-firebase-default-rtdb.firebaseio.com",
     "project_id": "monos-firebase",
     "storage_bucket": "monos-firebase.appspot.com"
   },
