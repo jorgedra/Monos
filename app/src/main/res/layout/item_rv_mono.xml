@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="#90248109"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/img_item_mono"
+        android:layout_width="143dp"
+        android:layout_height="212dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/monologo" />
+
+    <LinearLayout
+        android:layout_width="281dp"
+        android:layout_height="211dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_item_id"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:padding="16dp"
+            android:text="Id" />
+
+        <TextView
+            android:id="@+id/txt_item_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Nombre"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_item_familia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="familia"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_item_region"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Region" />
+
+    </LinearLayout>
+</LinearLayout>

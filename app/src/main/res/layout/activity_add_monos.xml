@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddMonosActivity">
+
+    <EditText
+        android:id="@+id/edt_detalles_familia"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Familia"
+        android:inputType="textPersonName"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/edt_detalles_id"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edt_detalles_id"
+        app:layout_constraintTop_toBottomOf="@+id/edt_detalles_nombre" />
+
+    <EditText
+        android:id="@+id/edt_detalles_region"
+        android:layout_width="363dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Region"
+        android:inputType="textPersonName"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/edt_detalles_id"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edt_detalles_id"
+        app:layout_constraintTop_toBottomOf="@+id/edt_detalles_familia" />
+
+    <TextView
+        android:id="@+id/txt_detalles_mono_titulo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"
+        android:text="Añadir un mono"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_detalles_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:hint="Id"
+        android:inputType="textPersonName"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_detalles_mono_titulo" />
+
+    <EditText
+        android:id="@+id/edt_detalles_nombre"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/edt_detalles_id"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edt_detalles_id"
+        app:layout_constraintTop_toBottomOf="@+id/edt_detalles_id" />
+
+    <Button
+        android:id="@+id/bt_detalles_editar_mono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="add_mono_realtime"
+        android:text="Añadir mono"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_add_mono"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="456dp"
+        android:layout_marginEnd="90dp"
+        android:onClick="cambiar_imagen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/monologo" />
+</androidx.constraintlayout.widget.ConstraintLayout>
