@@ -8,7 +8,7 @@
 
     <EditText
         android:id="@+id/edt_detalles_region"
-        android:layout_width="363dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="12dp"
@@ -24,7 +24,7 @@
 
     <EditText
         android:id="@+id/edt_detalles_familia"
-        android:layout_width="363dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="72dp"
@@ -82,7 +82,7 @@
 
     <EditText
         android:id="@+id/edt_detalles_nombre"
-        android:layout_width="363dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
